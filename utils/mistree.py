@@ -28,6 +28,7 @@ def construct_mst(x, y, z, k_neighbours =20):
 
     return edge_length, edge_x, edge_y, edge_z, edge_index
 
+
 def get_graph_degree(edge_index, number_of_nodes):
     index1, index2 = edge_index[0], edge_index[1]
     number_of_edges = len(index1)
@@ -38,7 +39,9 @@ def get_graph_degree(edge_index, number_of_nodes):
         degree[index1[i]] += 1
         degree[index2[i]] += 1    
 
-    return degree
+    edge_degree = np.array([degree[index1], degree[index2]])
+
+    return degree, edge_degree
 
 
 
@@ -156,6 +159,7 @@ def get_branch_index(edge_index, edge_degree, branch_cutting_frequency=1000):
 
 
 def get_branch_end_index(edge_index, edge_degree, branch_index):
+    
     branch_edge_index_end1 = [i[0] for i in branch_index]
     branch_edge_index_end2 = [i[len(i) - 1] for i in branch_index]
     edge_degree_end12 = edge_degree[1][branch_edge_index_end1]
