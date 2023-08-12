@@ -3,3 +3,11 @@ data/
 __pycache__/
 
 .DS_Store
+
+disperse/
+
+figs/
+
+bottrell/
+
+.ipynb_checkpoints/

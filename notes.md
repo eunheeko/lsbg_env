@@ -10,7 +10,7 @@
 
 
 ## Sample selection
-- Calculate the complete sample
+### LSBG vs. HSBG
 1. Complete limit
     - Based on Annis+14: Figure 8, Table 5
     - THE SLOAN DIGITAL SKY SURVEY COADD: 275 deg2 OF DEEP SLOAN DIGITAL SKY SURVEY IMAGING ON STRIPE 82
@@ -28,6 +28,9 @@ Bayesian approach to SED fitting on the combination of
 GALEX and SDSS data of all galaxies (0.7 million) with
 z < 0.3.
 
+### LSS
+* 
+
 ### Inclination
 
 
@@ -35,7 +38,7 @@ Cervantes-Sodi et al.(2008, 2012)와 Perez-Montano et al.(2019, 2022) 등을 살
 
 
 ## Previous study
-* [Pérez-Montaño+19](https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.3772P/abstract)
+* [Pérez-Montaño+19][]
     - galaxy sample: KIAS Value-Added Catalog based on SDSS DR7
     - structural information from the Simard et al. 2011, fixed sersic index $n_{b} = 4$ for the bulge component
     - volume-limited sample
@@ -44,14 +47,23 @@ Cervantes-Sodi et al.(2008, 2012)와 Perez-Montano et al.(2019, 2022) 등을 살
         - #fracDev < 0.9$: late-type galaxies 
     - match with ALFALFA $\alpha 100$ catalog with $25 < inclination < 75$
 
-* [Pérez-Montaño+22](https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.5840P/abstract)
+* [Pérez-Montaño+22][]
     - IllustriTNG100 
 
-* [Cervantes-Sodi+08](https://ui.adsabs.harvard.edu/abs/2008MNRAS.388..863C/abstract)
+* [Cervantes-Sodi+08][]
 
-* [Cervantes-Sodi+12](https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.1606C/abstract)
+* [Cervantes-Sodi+12][]
 
-* [Kim & Lee 2013](https://ui.adsabs.harvard.edu/abs/2013MNRAS.432.1701K/abstract)
+* [Kim & Lee 2013][]
 
 
+<!-- References -->
+[Pérez-Montaño+19]: https://ui.adsabs.harvard.edu/abs/2019MNRAS.490.3772P/abstract
 
+[Pérez-Montaño+22]: https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.5840P/abstract
+
+[Cervantes-Sodi+08]: https://ui.adsabs.harvard.edu/abs/2008MNRAS.388..863C/abstract
+
+[Cervantes-Sodi+12]: https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.1606C/abstract
+
+[Kim & Lee 2013]: https://ui.adsabs.harvard.edu/abs/2013MNRAS.432.1701K/abstract
