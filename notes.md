@@ -67,3 +67,17 @@ Cervantes-Sodi et al.(2008, 2012)와 Perez-Montano et al.(2019, 2022) 등을 살
 [Cervantes-Sodi+12]: https://ui.adsabs.harvard.edu/abs/2012MNRAS.426.1606C/abstract
 
 [Kim & Lee 2013]: https://ui.adsabs.harvard.edu/abs/2013MNRAS.432.1701K/abstract
+
+
+## Notes on Cosmicflow-4
+
+* [Tully+23](https://ui.adsabs.harvard.edu/abs/2023ApJ...944...94T/abstract)
+    - distances for $55877$ galaxies gathered into $38065$ groups
+        - $8$ methodologies; Tully-Fisher (TF), Fundamental Plane (FP), type Ia SNe, surface brightness fluctuations of elliptical galaxies, core-collapse supernovae (SNe II), Cepheid period-luminosity, tip of the red giant branch (TRGB), stellar parallax
+    - galaxy groups
+        - ``
+
+
+## Filament catalog
+* [Tempel+14](https://ui.adsabs.harvard.edu/abs/2014MNRAS.438.3465T/abstract)
+    - [data](https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/438/3465)
