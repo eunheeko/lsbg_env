@@ -1,3 +1,6 @@
+from numpy import int8
+
+
 def objid_extract(obj_id):
     
     masks = {'sky_version': 0x7800000000000000,
@@ -25,3 +28,8 @@ def objid_extract(obj_id):
            'field': field,
            'object_id': object_id
            }
+    
+def objid_merge(sky = 15, run, rerun, camcol, field, object_id):
+    superid: int8 = 0
+    superid = (superid | (sky << 59) | (rerun << 48) | (run << 32) | (camcol << 29) | (0 << 28) | (field << 16) | (object_id << 0))
+    return superid
