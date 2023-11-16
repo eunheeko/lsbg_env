@@ -81,3 +81,35 @@ Cervantes-Sodi et al.(2008, 2012)와 Perez-Montano et al.(2019, 2022) 등을 살
 ## Filament catalog
 * [Tempel+14](https://ui.adsabs.harvard.edu/abs/2014MNRAS.438.3465T/abstract)
     - [data](https://vizier.cds.unistra.fr/viz-bin/VizieR?-source=J/MNRAS/438/3465)
+
+
+magnitude conversion
+- https://arxiv.org/pdf/1007.4014.pdf
+- https://arxiv.org/pdf/1811.04569.pdf
+- Kim & Lee 2013, How Does the Surface Density and Size of Disk Galaxies Measured in Hydrodynamic Simulations Correlate with the Halo SpinParameter?
+
+Things to check
+
+- redshift range
+- volume limited (preferred) vs. magnitude limited
+- surface brightness distribution as a function of redshift
+- comepleteness?
+- How to convert sdss filter sets into UBVRI
+- inclination
+
+# zeropoint = 30
+#  -2.5 * np.log10(tbl_ps['f_g'][:10])+ 30 = tbl_ps['g2dmag_g'][:10]
+
+# path = './bottrell/stz855_supplemental_files/Stripe82_DeepMorphologies_TXT/'
+# tbl_n4 = ascii.read(path + 'sdss_s82_morph_gr_n4.txt')
+
+Halo mass to virial radius
+
+$$M_{200} = \frac{100}{G} r^{3}_{200} H^{2}(t)$$
+
+Hs = cosmo.H(grps['z']).value
+h =  cosmo.H(0).value / 100
+ 
+G = 4.2e-3 * 1e-6 # Mpc M_sun-1 (km/s)^2
+
+r200 = (( 10**(grps['hm1']) * G / 100 / Hs**2 )**(1/3)).value #mpc
