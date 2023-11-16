@@ -16,7 +16,7 @@ updated as of Sep 26, 2023
         + [4_results.ipynb](4_results.ipynb)
         + To be updated
     - data/
-        + ***Data should be downloaded outside of this repo***
+        + [download](https://www.dropbox.com/scl/fo/5jc4b85uio14u39c04f27/h?rlkey=6m46csyglk4i9r5vtz3pqntyb&dl=0)
 
 
 ## Installation
