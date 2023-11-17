@@ -1,6 +1,23 @@
 # README for lsbg project
 
-updated as of Sep 26, 2023
+updated as of Nov. 17, 2023
+
+## Getting started
+
+Download utility codes and data
+
+### code
+Use git clone to copy the repository
+```
+git clone https://github.com/eunheeko/lsbg_env.git
+```
+Or download a `utils` folder and necessary notebooks.
+
+### data
+- [download](https://www.dropbox.com/scl/fo/5jc4b85uio14u39c04f27/h?rlkey=6m46csyglk4i9r5vtz3pqntyb&dl=0)
+    - `data` folder should be inside the workspace
+### 
+
 
 ## Structures
 * codes
@@ -19,11 +36,6 @@ updated as of Sep 26, 2023
         + [download](https://www.dropbox.com/scl/fo/5jc4b85uio14u39c04f27/h?rlkey=6m46csyglk4i9r5vtz3pqntyb&dl=0)
 
 
-## Installation
-
-```
-git clone
-```
 
 ## Notes
 Further details can be found [here](notes.md)
